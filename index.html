@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./js/index.js"></script>
+        <link rel="stylesheet" href="./style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav class="pt-[40px]">
+                <div class="container">
+                    <div
+                        class="desktop:flex items-center desktop:justify-between"
+                    >
+                        <div
+                            class="hidden desktop:block desktop:flex items-center"
+                        >
+                            <h1
+                                class="text-[#3563E9] font-[700] text-[32px] animate-spin"
+                            >
+                                MORENT
+                            </h1>
+                            <div
+                                class="ml-[64px] border-solid border-2 border-[#C3D4E966] rounded-[70px] px-[20px] py-[10px] items-center hidden desktop:block desktop:flex"
+                            >
+                                <div class="mr-[20px] text-[#596780]">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <input
+                                    class="outline-none text-[#596780]"
+                                    type="text"
+                                    placeholder="Search something here"
+                                />
+                                <div class="text-[#596780] ml-[235px]">
+                                    <i class="fa fa-filter"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="desktop:flex desktop:gap-[20px] desktop:items-center"
+                        >
+                            <div
+                                class="text-[#596780] border-solid border-2 border-[#C3D4E966] rounded-[50px] py-[10px] px-[15px] hidden desktop:block hover:text-[red] duration-200"
+                            >
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <div
+                                class="text-[#596780] border-solid border-2 border-[#C3D4E966] rounded-[50px] py-[10px] px-[15px] hidden desktop:block hover:text-[black] duration-200 animate-pulse"
+                            >
+                                <i class="fa fa-bell"></i>
+                                <div class="relative">
+                                    <img
+                                        class="absolute bottom-[25px] left-[15px]"
+                                        src="./assets/icons/Notif.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="text-[#596780] border-solid border-2 border-[#C3D4E966] rounded-[50px] py-[10px] px-[15px] hidden desktop:block hover:text-[black] duration-200"
+                            >
+                                <i class="fa fa-gear"></i>
+                            </div>
+                            <div class="hidden desktop:block">
+                                <img src="./assets/images/Image.svg" alt="" />
+                            </div>
+                        </div>
+                        <div class="desktop:hidden grid text-center ml-[-10px]">
+                            <div class="flex justify-between">
+                                <div>
+                                    <h1
+                                        class="text-[#3563E9] font-[700] text-[32px]"
+                                    >
+                                        MORENT
+                                    </h1>
+                                </div>
+                                <div class="desktop:hidden">
+                                    <img
+                                        src="./assets/images/Image.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center">
+                                <div
+                                    class="flex items-center justify-center mt-[32px] rounded-[10px] border-solid border-2 border-[#C3D4E966]"
+                                >
+                                    <div class="py-[12px] pl-[24px] mr-[10px]">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    &nbsp;
+                                    <input
+                                        class="py-[12px] pr-[57px] outline-none text-[#9fabbae7]"
+                                        type="text"
+                                        placeholder="Search something here"
+                                    />
+                                </div>
+                                <div
+                                    class="mt-[33px] ml-[16px] rounded-[10px] border-solid border-2 border-[#C3D4E966] py-[12px] px-[15px]"
+                                >
+                                    <i class="fa fa-filter"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="">
+                <div class="container">
+                    <div class="desktop:flex pt-[50px] gap-[32px]">
+                        <div class="relative m-auto">
+                            <div>
+                                <img src="./assets/images/Ads 1.png" alt="" />
+                            </div>
+                            <h1
+                                class="absolute top-[5%] left-[5%] font-[600] text-white text-[16px] desktop:text-[32px]"
+                            >
+                                The Best Platform
+                                <br class="hidden desktop:block" />for Car
+                                Rental
+                            </h1>
+                            <p
+                                class="absolute top-[18%] left-[5%] text-white desktop:top-[35%]"
+                            >
+                                Ease of doing a car rental safely and
+                                <br />reliably. Of course at a low price.
+                            </p>
+                            <div class="">
+                                <button
+                                    class="rounded-[4px] bg-[#3563E9] py-[14px] px-[35px] absolute top-[45%] left-[5%] text-white desktop:top-[55%] hover:bg-blue-300 duration-200"
+                                >
+                                    Rental Car
+                                </button>
+                            </div>
+                            <div
+                                class="absolute bottom-[0%] left-[17%] desktop:hidden"
+                            >
+                                <img src="./assets/images/Car.png" alt="" />
+                            </div>
+                            <div
+                                class="absolute top-[65%] left-[25%] hidden desktop:block animate-pulse"
+                            >
+                                <img src="./assets/images/image 7.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="hidden desktop:block m-auto">
+                            <div>
+                                <img src="./assets/images/Ads 2.png" alt="" />
+                            </div>
+                            <h1
+                                class="top-[21%] left-[53%] absolute font-[600] text-white text-[32px]"
+                            >
+                                Easy way to rent a <br />car at a low price
+                            </h1>
+                            <p class="top-[36%] left-[53%] text-white absolute">
+                                Providing cheap car rental services <br />and
+                                safe and comfortable facilities.
+                            </p>
+                            <div class="">
+                                <button
+                                    class="rounded-[4px] bg-[#54A6FF] py-[14px] px-[35px] absolute top-[46%] left-[53%] text-white hover:bg-blue-700 duration-200"
+                                >
+                                    Rental Car
+                                </button>
+                            </div>
+                            <div
+                                class="absolute bottom-[34%] left-[64%] animate-pulse"
+                            >
+                                <img
+                                    src="./assets/images/image 8 (1).png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="picking pt-[50px]">
+                <div class="container">
+                    <div class="desktop:flex justify-center">
+                        <div
+                            class="justify-center shadow-2xl rounded-[10px] py-[16px] px-[20px] desktop:px-[48px]"
+                        >
+                            <div class="flex">
+                                <input type="radio" name="0" id="" />
+                                &nbsp;
+                                <h3>Pick - Up</h3>
+                            </div>
+                            <div
+                                class="flex justify-center gap-[50px] pt-[50px]"
+                            >
+                                <div class="items-cente">
+                                    <span
+                                        class="block pt-[15px] pb-[10px] font-[700]"
+                                        >Locations</span
+                                    >
+                                    <div class="flex">
+                                        <span
+                                            class="text-[#90A3BF] font-[400] text-[12px] items-center"
+                                            >Semarang</span
+                                        >
+                                        &nbsp;
+                                        <div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="items-center border-r-2 border-l-2 pl-[35px] pr-[50px]"
+                                >
+                                    <span
+                                        class="block pt-[15px] pb-[10px] font-[700]"
+                                        >Date</span
+                                    >
+                                    <div class="flex">
+                                        <data
+                                            class="text-[#90A3BF] font-[400] items-center ml-[-12px]"
+                                            value="20 july 2022"
+                                            >20 july 2022</data
+                                        >
+                                        &nbsp;
+                                        <div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-center">
+                                    <span
+                                        class="block pt-[15px] pb-[10px] font-[700]"
+                                        >Time</span
+                                    >
+                                    <div class="flex">
+                                        <time
+                                            class="text-[#90A3BF] font-[400] items-center"
+                                            datetime="7:00"
+                                            >7:00</time
+                                        >
+                                        &nbsp;
+                                        <div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ml-[118px] mt-[-30px] desktop:mr-[110px] desktop:mt-[50px]">
+                            <img src="./assets/icons/Switch (1).png" alt="" />
+                        </div>
+                        <div
+                            class="justify-center shadow-2xl rounded-[10px] py-[16px] px-[16px] mt-[-65px] desktop:mt-[5px] desktop:px-[48px]"
+                        >
+                            <div class="flex">
+                                <input type="radio" name="0" id="" />
+                                &nbsp;
+                                <h3>Pick - Up</h3>
+                            </div>
+                            <div
+                                class="flex justify-center gap-[50px] pt-[50px]"
+                            >
+                                <div class="items-cente">
+                                    <span
+                                        class="block pt-[15px] pb-[10px] font-[700]"
+                                        >Locations</span
+                                    >
+                                    <div class="flex">
+                                        <span
+                                            class="text-[#90A3BF] font-[400] text-[12px] items-center"
+                                            >Semarang</span
+                                        >
+                                        &nbsp;
+                                        <div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="items-center border-r-2 border-l-2 pl-[50px] pr-[50px]"
+                                >
+                                    <span
+                                        class="block pt-[15px] pb-[10px] font-[700]"
+                                        >Date</span
+                                    >
+                                    <div class="flex">
+                                        <data
+                                            class="text-[#90A3BF] font-[400] items-center ml-[-12px]"
+                                            value="20 july 2022"
+                                            >20 july 2022</data
+                                        >
+                                        &nbsp;
+                                        <div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-center">
+                                    <span
+                                        class="block pt-[15px] pb-[10px] font-[700]"
+                                        >Time</span
+                                    >
+                                    <div class="flex">
+                                        <time
+                                            class="text-[#90A3BF] font-[400] items-center"
+                                            datetime="7:00"
+                                            >7:00</time
+                                        >
+                                        &nbsp;
+                                        <div>
+                                            <i class="fa fa-arrow-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="popular py-[50px]">
+                <div class="container">
+                    <div class="">
+                        <div class="flex justify-between">
+                            <h2>Popular Car</h2>
+                            <h3>View All</h3>
+                        </div>
+                        <div
+                            class="desktop:flex desktop:justify-center desktop:justify-between py-[30px]"
+                        >
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] mt-[30px] desktop:mt-[0px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] hidden desktop:block hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="desktop:ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] hidden desktop:block hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] hidden desktop:block hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recomadation">
+                <div class="container">
+                    <div class="">
+                        <h2>Recomendation Car</h2>
+                        <div
+                            class="recomadation__cards flex flex-col py-[50px] desktop:grid"
+                        >
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] mt-[30px] desktop:mt-[0px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] mt-[30px] desktop:mt-[0px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] mt-[30px] desktop:mt-[0px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] mt-[30px] desktop:mt-[0px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] mt-[30px] desktop:mt-[-30px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] hidden desktop:block mt-[-30px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="desktop:ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] hidden desktop:block mt-[-30px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="shadow-2xl rounded-[10px] py-[16px] px-[16px] hidden desktop:block mt-[-30px] hover:opacity-[1] hover:scale-110 hover:bg-gray-700 duration-200 hover:rotate-2"
+                            >
+                                <div
+                                    class="flex items-center justify-between py-[20px]"
+                                >
+                                    <div>
+                                        <h2>Koenigsegg</h2>
+                                        <span>Sport</span>
+                                    </div>
+                                    <div class="hover:text-red-500">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex items-center justify-between desktop:grid"
+                                >
+                                    <div class="pt-[32px]">
+                                        <img
+                                            src="./assets/images/Car.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="desktop:flex desktop:items-center justify-center desktop:gap-[16px] desktop:pt-[20px]"
+                                    >
+                                        <div>
+                                            <img
+                                                src="./assets/icons/gasoline.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="mt-[10px] mb-[10px]">
+                                            <img
+                                                src="./assets/icons/drive.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./assets/icons/capacity.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex justify-between items-center pt-[32px]"
+                                >
+                                    <div>
+                                        <span class="block"
+                                            ><span>$72.00/</span> day</span
+                                        >
+                                        <span>$80.00</span>
+                                    </div>
+                                    <div class="ml-[20px]">
+                                        <button
+                                            class="bg-blue-700 rounded-[4px] py-[10px] px-[16px] text-white hover:animate-bounce hover:bg-gray-500 hover:duration-200"
+                                        >
+                                            Rental Now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="text-center py-[50px]">
+                                <button
+                                    class="rounded-[4px] bg-blue-600 py-[10px] px-[20px] text-white hover:bg-white hover:text-black duration-200 border-2 border-solid border-blue-500"
+                                >
+                                    Show more car
+                                </button>
+                            </div>
+                            <div class="text-right mt-[-85px]">
+                                <span class="text-gray-500">120 Car</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="py-[100px]">
+            <div class="container">
+                <div class="desktop:flex justify-between py-[20px]">
+                    <div class="mt-[30px]">
+                        <h2 class="text-blue-600 font-[700] text-[32px]">
+                            MORENT
+                        </h2>
+                        <p class="text-[#90A3BF] py-[15px]">
+                            Our vision is to provide convenience <br />and help
+                            increase your sales business.
+                        </p>
+                    </div>
+                    <div class="desktop:flex">
+                        <div class="flex pt-[30px] justify-between items-center desktop:gap-[75px]">
+                            <div class="desktop:flex items-center desktop:gap-[60px]">
+                                <ul>
+                                    <li
+                                        class="text-[#1A202C] font-[600] text-[20px] py-[10px]"
+                                    >
+                                        <a href="#">
+                                            <span>About</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF] py-[10px]">
+                                        <a href="#">
+                                            <span>How it works</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF]  py-[10px]">
+                                        <a href="#">
+                                            <span>Featured</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF]  py-[10px]">
+                                        <a href="#">
+                                            <span>Partnership</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF]  py-[10px]">
+                                        <a href="#">
+                                            <span>Bussiness Relation</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="pt-[30px] desktop:mt-[-25px]">
+                                    <ul>
+                                        <li
+                                            class="text-[#1A202C] font-[600] text-[20px]  py-[10px]"
+                                        >
+                                            <a href="#">
+                                                <span>Socials</span>
+                                            </a>
+                                        </li>
+                                        <li class="text-[#90A3BF]  py-[10px]">
+                                            <a href="#">
+                                                <span>Discord</span>
+                                            </a>
+                                        </li>
+                                        <li class="text-[#90A3BF]  py-[10px]">
+                                            <a href="#">
+                                                <span>Instagram</span>
+                                            </a>
+                                        </li>
+                                        <li class="text-[#90A3BF]  py-[10px]">
+                                            <a href="#">
+                                                <span>Twitter</span>
+                                            </a>
+                                        </li> 
+                                        <li class="text-[#90A3BF]  py-[10px]">
+                                            <a href="#">
+                                                <span>Facebook</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mt-[-250px] desktop:mt-[10px]">
+                                <ul>
+                                    <li
+                                        class="text-[#1A202C] font-[600] text-[20px]  py-[10px]"
+                                    >
+                                        <a href="#">
+                                            <span>Community</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF]  py-[10px]">
+                                        <a href="#">
+                                            <span>Events</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF]  py-[10px]">
+                                        <a href="#">
+                                            <span>Blog</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF]  py-[10px]">
+                                        <a href="#">
+                                            <span>Podcast</span>
+                                        </a>
+                                    </li>
+                                    <li class="text-[#90A3BF] py-[10px]">
+                                        <a href="#">
+                                            <span>Invite a friend</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hidden desktop:block">
+                <div class="flex justify-between pt-[30px] desktop:justify-center desktop:text-right desktop:ml-[1000px] desktop:gap-[50px] desktop:pt-[50px]">
+                    <div>
+                        <span>Privacy & Policy</span>
+                    </div>
+                    <div>
+                        <span>Terms & Condition</span>
+                    </div>
+                </div>
+                <div class="justify-center pt-[20px] desktop:mt-[-40px]">
+                    <span>©2022 MORENT. All rights reserved</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
